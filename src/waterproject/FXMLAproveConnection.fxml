@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="759.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="waterproject.FXMLHomeController">
+   <children>
+      <Label layoutX="196.0" layoutY="12.0" text="MUTENGENE WATER PROJECT" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonLogout" layoutX="22.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleButtonLogoutAction" text="Logout" />
+      <Label layoutX="274.0" layoutY="34.0" text="A SELF RELIANT UNDERTAKING" />
+      <SplitPane dividerPositions="0.2453580901856764" layoutX="-4.0" layoutY="88.0" prefHeight="509.0" prefWidth="756.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="507.0" prefWidth="298.0">
+               <children>
+                  <Button layoutX="3.0" layoutY="4.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="Add New User" />
+                  <Button layoutX="4.0" layoutY="124.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="Process Applications" />
+                  <Button layoutX="4.0" layoutY="64.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="Manage Customers" />
+                  <Button layoutX="1.0" layoutY="184.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="Payments" />
+                  <Button layoutX="4.0" layoutY="244.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="Aprove Connection" />
+                  <Button layoutX="4.0" layoutY="304.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="Purchase Order" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="507.0" prefWidth="418.0">
+               <children>
+                  <Label layoutX="243.0" layoutY="39.0" text="AGREEMENT" />
+                  <Button layoutX="93.0" layoutY="468.0" mnemonicParsing="false" text="CANCEL" />
+                  <Button layoutX="441.0" layoutY="468.0" mnemonicParsing="false" text="SUBMIT" />
+                  <MenuButton layoutX="212.0" layoutY="98.0" mnemonicParsing="false" text="Select Customer">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Action 1" />
+                      <MenuItem mnemonicParsing="false" text="Action 2" />
+                    </items>
+                  </MenuButton>
+                  <DatePicker layoutX="212.0" layoutY="268.0" prefHeight="25.0" prefWidth="144.0" promptText="Date of Connection" />
+                  <TextArea layoutX="112.0" layoutY="142.0" prefHeight="95.0" prefWidth="370.0" text="This agreement is made between Mutengene Water Project(A community-based Self-Reliant Initiative. Hereinafter called the Water Scheme) on the one part and the Private Individual(Hereinafter called the Customer." wrapText="true" />
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

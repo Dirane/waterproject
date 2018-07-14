@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="waterproject.FXMLDocumentController">
+   <children>
+      <Label alignment="CENTER" layoutX="125.0" layoutY="39.0" text="Mutengene Community water project" textAlignment="CENTER">
+         <font>
+            <Font name="FontAwesome" size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonLogin" layoutX="359.0" layoutY="288.0" mnemonicParsing="false" onAction="#handleButtonLoginAction" text="Log In" />
+      <TextField fx:id="username" alignment="CENTER" layoutX="246.0" layoutY="153.0" promptText="User Name" />
+      <PasswordField fx:id="password" alignment="CENTER" layoutX="246.0" layoutY="220.0" promptText="Password" />
+      <Hyperlink fx:id="forgotPassword" layoutX="344.0" layoutY="337.0" text="Forgot Password?" />
+   </children>
+</AnchorPane>

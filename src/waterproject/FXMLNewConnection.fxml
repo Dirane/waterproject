@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="759.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="waterproject.FXMLHomeController">
+   <children>
+      <Label layoutX="196.0" layoutY="12.0" text="MUTENGENE WATER PROJECT" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonLogout" layoutX="22.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleButtonLogoutAction" text="Logout" />
+      <Label layoutX="274.0" layoutY="34.0" text="A SELF RELIANT UNDERTAKING" />
+      <SplitPane dividerPositions="0.2472972972972973" layoutX="-4.0" layoutY="88.0" prefHeight="509.0" prefWidth="756.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="492.0" prefWidth="187.0">
+               <children>
+                  <Button layoutX="3.0" layoutY="4.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="Add New User" />
+                  <Button layoutX="4.0" layoutY="124.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="Process Applications" />
+                  <Button layoutX="4.0" layoutY="64.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="Manage Customers" />
+                  <Button layoutX="4.0" layoutY="244.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="Aprove Connection" />
+                  <Button layoutX="4.0" layoutY="184.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="Payments" />
+                  <Button layoutX="4.0" layoutY="304.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="Purchase Order" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="507.0" prefWidth="564.0">
+               <children>
+                  <Label layoutX="154.0" layoutY="38.0" text="APPLICATION FOR A NEW CONNECTION" />
+                  <Label layoutX="93.0" layoutY="109.0" text="Beneficiary Community:" />
+                  <Label layoutX="121.0" layoutY="175.0" text="Category of Supply:" />
+                  <Label layoutX="118.0" layoutY="246.0" text="Method of Payment:" />
+                  <Label layoutX="58.0" layoutY="313.0" text="Number of Points Applied for:" />
+                  <MenuButton layoutX="295.0" layoutY="104.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="132.0" text="Select...">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Action 1" />
+                      <MenuItem mnemonicParsing="false" text="Action 2" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                    </items>
+                  </MenuButton>
+                  <MenuButton layoutX="295.0" layoutY="170.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="132.0" text="Select...">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Action 1" />
+                      <MenuItem mnemonicParsing="false" text="Action 2" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                    </items>
+                  </MenuButton>
+                  <MenuButton layoutX="295.0" layoutY="241.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="132.0" text="Select...">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Action 1" />
+                      <MenuItem mnemonicParsing="false" text="Action 2" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                    </items>
+                  </MenuButton>
+                  <MenuButton layoutX="295.0" layoutY="308.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="132.0" text="Select...">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Action 1" />
+                      <MenuItem mnemonicParsing="false" text="Action 2" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                    </items>
+                  </MenuButton>
+                  <Button layoutX="58.0" layoutY="450.0" mnemonicParsing="false" text="Cancel" />
+                  <Button layoutX="362.0" layoutY="450.0" mnemonicParsing="false" text="Submit" />
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

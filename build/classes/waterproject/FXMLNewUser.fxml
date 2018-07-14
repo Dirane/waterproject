@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="waterproject.FXMLNewUserController">
+   <children>
+      <SplitPane dividerPositions="0.2527027027027027" layoutY="98.0" prefHeight="509.0" prefWidth="756.0">
+         <items>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="507.0" prefWidth="272.0">
+               <children>
+                  <Button layoutX="3.0" layoutY="4.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="Add New User" />
+                  <Button layoutX="3.0" layoutY="124.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="Process Applications" />
+                  <Button layoutX="3.0" layoutY="64.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="Manage Customer" />
+                  <Button layoutX="4.0" layoutY="244.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="Aprove Connection" />
+                  <Button layoutX="4.0" layoutY="184.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="Payments"/>
+                  <Button layoutX="4.0" layoutY="304.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="Purchase Order" />
+               </children>
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="507.0" prefWidth="508.0">
+               <children>
+                  <Label layoutX="259.0" layoutY="30.0" text="Create New User" />
+                  <Button fx:id="newCustomer" layoutX="107.0" layoutY="143.0" mnemonicParsing="false" onAction="#handleButtonNewCustomer" prefHeight="128.0" prefWidth="173.0" text="New Customer" />
+                  <Button fx:id="newInstitution" layoutX="323.0" layoutY="143.0" mnemonicParsing="false" onAction="#handleButtonNewInstitution" prefHeight="128.0" prefWidth="173.0" text="New Institution" />
+                  <Button fx:id="newWorker" layoutX="107.0" layoutY="306.0" mnemonicParsing="false" onAction="#handleButtonNewWorker" prefHeight="128.0" prefWidth="173.0" text="New Worker" />
+               </children>
+            </AnchorPane>
+         </items>
+      </SplitPane>
+      <Label layoutX="284.0" layoutY="44.0" text="A SELF RELIANT UNDERTAKING" />
+      <Button fx:id="buttonLogout" layoutX="32.0" layoutY="24.0" mnemonicParsing="false" onAction="#handleButtonLogoutAction" text="Logout" />
+      <Label layoutX="206.0" layoutY="22.0" text="MUTENGENE WATER PROJECT" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

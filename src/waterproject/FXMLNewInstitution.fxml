@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="759.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="waterproject.FXMLNewInstitutionController">
+   <children>
+      <Label layoutX="196.0" layoutY="12.0" text="MUTENGENE WATER PROJECT" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonLogout" layoutX="22.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleButtonLogoutAction" text="Logout" />
+      <Label layoutX="274.0" layoutY="34.0" text="A SELF RELIANT UNDERTAKING" />
+      <SplitPane dividerPositions="0.2472972972972973" layoutX="-4.0" layoutY="88.0" prefHeight="509.0" prefWidth="756.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="492.0" prefWidth="187.0">
+               <children>
+                  <Button layoutX="3.0" layoutY="4.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="Add New Customer" />
+                  <Button layoutX="3.0" layoutY="64.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="Manage Applications" />
+                  <Button layoutX="4.0" layoutY="124.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="Manage Staff" />
+                  <Button layoutX="3.0" layoutY="184.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="Manage Customer" />
+                  <Button layoutX="4.0" layoutY="244.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="Reports" />
+                  <Button layoutX="4.0" layoutY="304.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="Agreements" />
+                  <Button layoutX="3.0" layoutY="364.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="Purchase Order" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="507.0" prefWidth="564.0">
+               <children>
+                  <Label layoutX="259.0" layoutY="30.0" text="New Institution" />
+                  <TextField layoutX="55.0" layoutY="114.0" promptText="Institution Name" />
+                  <TextField layoutX="55.0" layoutY="173.0" promptText="Registration Number" />
+                  <TextField layoutX="55.0" layoutY="241.0" promptText="P.O BOX" />
+                  <TextField layoutX="55.0" layoutY="303.0" promptText="Phone Number" />
+                  <TextField layoutX="309.0" layoutY="114.0" promptText="Email Address" />
+                  <ChoiceBox layoutX="309.0" layoutY="173.0" prefHeight="25.0" prefWidth="171.0" />
+                  <TextField layoutX="309.0" layoutY="241.0" promptText="Quarter" />
+                  <DatePicker layoutX="309.0" layoutY="303.0" prefHeight="25.0" prefWidth="171.0" promptText="Date of Creation" />
+                  <Button layoutX="55.0" layoutY="426.0" mnemonicParsing="false" text="Cancle" />
+                  <Button layoutX="418.0" layoutY="426.0" mnemonicParsing="false" text="Submit" />
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
