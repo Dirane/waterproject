@@ -24,20 +24,30 @@
             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="507.0" prefWidth="532.0">
                <children>
                   <Label layoutX="210.0" layoutY="31.0" text="Create New Customer" />
-                  <TextField layoutX="26.0" layoutY="85.0" promptText="First Name" />
-                  <TextField layoutX="305.0" layoutY="85.0" promptText="Passport No" />
-                  <TextField layoutX="26.0" layoutY="140.0" promptText="Middle Initial" />
-                  <TextField layoutX="305.0" layoutY="194.0" promptText="Quarter No" />
-                  <TextField layoutX="26.0" layoutY="194.0" promptText="Last Name" />
-                  <ChoiceBox layoutX="305.0" layoutY="315.0" prefHeight="25.0" prefWidth="171.0" />
-                  <TextField layoutX="26.0" layoutY="254.0" promptText="Phone Number" />
-                  <TextField layoutX="305.0" layoutY="254.0" promptText="House No" />
-                  <TextField layoutX="26.0" layoutY="315.0" promptText="Email Address" />
-                  <ChoiceBox layoutX="305.0" layoutY="140.0" prefHeight="25.0" prefWidth="171.0" />
-                  <TextField layoutX="26.0" layoutY="376.0" promptText="NID" />
-                  <DatePicker layoutX="305.0" layoutY="376.0" prefHeight="25.0" prefWidth="171.0" promptText="Date of Birth" />
-                  <Button layoutX="26.0" layoutY="458.0" mnemonicParsing="false" text="Cancle" />
-                  <Button layoutX="414.0" layoutY="458.0" mnemonicParsing="false" text="Submit" />
+                  <TextField fx:id="FName" layoutX="26.0" layoutY="85.0" promptText="First Name" />
+                  <TextField fx:id="PassportNum" layoutX="305.0" layoutY="85.0" promptText="Passport No" />
+                  <TextField fx:id="MName" layoutX="26.0" layoutY="140.0" promptText="Middle Initial" />
+                  <TextField fx:id="Quarter" layoutX="305.0" layoutY="194.0" promptText="Quarter No" />
+                  <TextField fx:id="LName" layoutX="26.0" layoutY="194.0" promptText="Last Name" />
+                  <TextField fx:id="PhoneNum" layoutX="26.0" layoutY="254.0" promptText="Phone Number" />
+                  <TextField fx:id="HouseNum" layoutX="305.0" layoutY="254.0" promptText="House No" />
+                  <TextField fx:id="EmailAddress" layoutX="26.0" layoutY="315.0" promptText="Email Address" />
+                  <TextField fx:id="NID" layoutX="26.0" layoutY="376.0" promptText="NID" />
+                  <DatePicker fx:id="DOB" layoutX="305.0" layoutY="376.0" prefHeight="25.0" prefWidth="171.0" promptText="Date of Birth" />
+                  <Button fx:id="Cancel" layoutX="26.0" layoutY="458.0" mnemonicParsing="false" text="Cancle" />
+                  <Button fx:id="Submit" layoutX="414.0" layoutY="458.0" mnemonicParsing="false" onAction="#handleSubmit" text="Submit" />
+                  <MenuButton fx:id="Gender" layoutX="304.0" layoutY="140.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="171.0" text="Gender">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Action 1" />
+                      <MenuItem mnemonicParsing="false" text="Action 2" />
+                    </items>
+                  </MenuButton>
+                  <MenuButton fx:id="Zone" layoutX="305.0" layoutY="315.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="171.0" text="Zone">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Action 1" />
+                        <MenuItem mnemonicParsing="false" text="Action 2" />
+                     </items>
+                  </MenuButton>
                </children>
             </AnchorPane>
          </items>

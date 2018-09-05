@@ -3,9 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/dirane/NetBeansProjects/WaterProject/src/waterproject/FXMLHomeController.java</file>
-            <file>file:/home/dirane/NetBeansProjects/WaterProject/src/waterproject/FXMLManageCustomer.fxml</file>
-            <file>file:/home/dirane/NetBeansProjects/WaterProject/src/waterproject/FXMLManageCustomerController.java</file>
+            <file>file:/home/dirane/NetBeansProjects/WaterProject/src/waterproject/FXMLNewWorkerController.java</file>
+            <file>file:/home/dirane/NetBeansProjects/WaterProject/src/Connectivity/ConnectionClass.java</file>
+            <file>file:/home/dirane/NetBeansProjects/WaterProject/src/waterproject/FXMLNewInstitutionController.java</file>
+            <file>file:/home/dirane/NetBeansProjects/WaterProject/src/waterproject/FXMLNewCustomerController.java</file>
         </group>
     </open-files>
 </project-private>

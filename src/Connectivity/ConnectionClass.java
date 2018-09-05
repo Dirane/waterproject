@@ -15,13 +15,14 @@ import java.sql.DriverManager;
 public class ConnectionClass {
     public Connection connection;
     public Connection getConnection(){
-        String dbName="waterprojectdb";
+        String dbName="waterproject";
         String dbUser="root";
-        String password="";
+        String password="dirane123";
         
         try{
             Class.forName("com.mysql.jdbc.Driver");
             connection = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/"+dbName,dbUser,password);
+            System.out.println("CONNECTEION SUCCEEDED");
         } catch (Exception e) {
             e.printStackTrace();
         }
